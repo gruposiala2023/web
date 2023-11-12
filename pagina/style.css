@@ -1,0 +1,530 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: "Roboto";
+}
+
+.container{
+    max-width: 1200;
+    margin: 0 auto;
+}
+.botons1{
+    min-width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+.botons1 a{
+text-decoration: none;
+font-size: 28px;
+width: 60px;
+height: 60px;
+line-height: 60px;
+text-align: center;
+background: rgb(146, 240, 14);
+color: rgb(255, 255, 255);
+border-radius: 50%;
+box-shadow: 2px 2px 5 px rgba(0,0,0,.5);
+transition: all .4s ease-in-out;
+
+}
+
+.botons1 a.hover{
+    transform: scale(1.2);
+    
+}
+
+.menu{
+    
+    width: 200vh;
+    height: 100px;
+    background-image: url(img/section9.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+  background-size: cover;
+padding-right: absolute;
+top: 10px;
+left: 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.logo{
+    font-weight: 300;
+    font-size: 25px;
+    color: rgb(255, 253, 253);
+    display: block;
+    text-transform: uppercase;
+    
+}
+.menu .navbar ul li {
+    position: relative;
+    float:left;
+}
+.menu .navbar ul li a{
+    font-size: 17px;
+    padding: 90px;
+    color: rgb(13, 95, 202);
+    display: block;
+    text-transform: uppercase;
+
+}
+.menu .navbar ul li a:hover{
+    color: rgb(216, 56, 56);
+}
+
+#menu{
+    display: none;
+
+}
+.menu-icono{
+    width: 25px;
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+.header-content{
+    margin-top: 100px;
+    display: flex;
+    padding: 50px;
+    background-color:rgb(255, 254, 254);
+    border-radius: 25px;
+}
+.heder-txt{
+    width: 50px;
+}
+.header-txt{
+    width: 80%;
+}
+.header-txt h1{
+    font-size:30px;
+    line-height: 100px;
+    color: rgb(90, 50, 50);
+    text-transform: uppercase;
+    font-weight: 300px;
+    margin-bottom: 80px;
+}
+.header-txt p{
+    font-size: 30px;
+    color: rgb(17, 16, 16);
+    margin-bottom: 35px;
+}
+.btn-1{
+    display: inline-block;
+    padding: 13px 25px;
+    color:rgb(14, 13, 13) ;
+    font-size: 17px;
+    text-transform:uppercase;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(126, 103, 103, 0.2);
+}
+.btn-1:hover{
+    background-color: rgb(182, 124, 124);
+  
+}
+.btn-2{
+    display: inline-block;
+    padding: 13px 25px;
+    color:rgb(14, 13, 13) ;
+    font-size: 17px;
+    text-transform:uppercase;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(126, 103, 103, 0.2);
+}
+.btn-2:hover{
+    background-color: rgb(182, 124, 124);
+}
+
+
+.heder-img{
+    width: 100%;
+    text-align:left;
+}
+.header-img img{
+    width: 50vh;
+}
+
+
+
+.content10 h6{
+    
+    font-size:40px;
+    line-height: 100px;
+    color: rgb(228, 163, 163);
+    text-transform: uppercase;
+    font-weight: 250px;
+    text-align: center;
+
+   
+}
+
+
+/*section2*/
+.botons1{
+    min-width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+.botons1 a{
+text-decoration: none;
+font-size: 28px;
+width: 60px;
+height: 60px;
+line-height: 60px;
+text-align: center;
+background: rgb(146, 240, 14);
+color: rgb(255, 255, 255);
+border-radius: 50%;
+box-shadow: 2px 2px 5 px rgba(0,0,0,.5);
+transition: all .4s ease-in-out;
+}
+
+.content{
+    margin-top: 100px;
+    display: flex;
+    padding: 50px;
+    background-color:rgb(255, 254, 254);
+    border-radius: 25px;
+}
+
+
+.content h2{
+    font-size:30px;
+    line-height: 100px;
+    color: rgb(90, 50, 50);
+    text-transform: uppercase;
+    font-weight: 300px;
+    margin-bottom: 90px;
+}
+
+.inmo  p{
+    font-size: 30px;
+    color: rgb(17, 16, 16);
+    margin-bottom:10px;
+    width: 60%;
+}
+
+.container1{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+
+}
+.card1{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background:#fff ;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+
+}
+ 
+.card1:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+.card1 img{
+    width: 100%;
+    height: 210px;}
+
+    .container2{
+        width: 100%;
+        display: flex;
+        max-width: 1100px;
+    
+    }
+    .card2{
+        width: 100%;
+        margin: 20px;
+        border-radius: 6px;
+        overflow: hidden;
+        background:#fffcfc ;
+        box-shadow: 0px 1px 10px rgba(247, 3, 3, 0.2);
+        cursor: default;
+        transition: all 400ms ease;
+    
+    }
+     
+    .card2:hover{
+        box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+        transform: translateY(-3%);
+    }
+    .card2 img{
+        width: 100%;
+        height: 210px;}
+        .container3{
+            width: 100%;
+            display: flex;
+            max-width: 1100px;
+        
+        }
+        .card3{
+            width: 100%;
+            margin: 20px;
+            border-radius: 6px;
+            overflow: hidden;
+            background:#fff ;
+            box-shadow: 0px 1px 10px rgba(165, 36, 36, 0.2);
+            cursor: default;
+            transition: all 400ms ease;
+        
+        }
+         
+        .card3:hover{
+            box-shadow: 5px 5px 20px rgba(7, 7, 7, 0.4);
+            transform: translateY(-3%);
+        }
+        .card3 img{
+            width: 100%;
+            height: 210px;}
+
+.btn-3{
+    display: inline-block;
+    padding: 13px 25px;
+    color:rgb(14, 13, 13) ;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    box-shadow: 0 0 35px rgba(212, 66, 66, 0.2);
+    width: left;
+}
+.btn-2:hover{
+    background-color: rgb(182, 124, 124);
+}
+/*/*/
+
+
+.btn-3:hover{
+    background-color: rgb(199, 77, 77);
+    color: rgb(204, 20, 20);
+}
+.btn-4{
+    display: inline-block;
+    padding: 13px 25px;
+    color:rgb(14, 13, 13) ;
+    font-size: 17px;
+    text-transform:uppercase;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(126, 103, 103, 0.2);
+}
+.btn-4:hover{
+    background-color: rgb(182, 53, 53);
+  
+}
+
+.botons{
+    min-width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+.botons a{
+text-decoration: none;
+font-size: 28px;
+width: 60px;
+height: 60px;
+line-height: 60px;
+text-align: center;
+background: rgb(128, 228, 13);
+color: rgb(7, 6, 6);
+border-radius: 50%;
+box-shadow: 2px 2px 5 px rgba(0,0,0,.5);
+transition: all .4s ease-in-out;
+
+}
+
+.botons a.hover{
+    transform: scale(1.2);
+    
+}
+/*ENLACES*/
+.content{
+    margin-top: 100px;
+    display: flex;
+    padding: 50px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+.content h3{
+    font-size:50px;
+    line-height: 50px;
+    color: rgb(226, 125, 125);
+    text-transform: uppercase;
+    font-weight: 100px;
+    text-align: center;
+    
+
+}
+.serv p{
+    font-size: 20px;
+    color: rgb(17, 16, 16);
+    margin-bottom:15px;
+}
+
+
+/*clien*/
+
+
+
+.content.clientes h5{
+    font-size:50px;
+    line-height: 100px;
+    color: rgb(236, 57, 57);
+    text-transform:initial ;
+    font-weight: 200px;
+    margin-bottom:10px;
+     align-items: center;
+     justify-content: center;
+}
+.clientes p{
+    font-size: 30px;
+    color: rgb(17, 16, 16);
+    margin-bottom: 10px;
+}
+
+
+
+            
+/*dif*/
+
+.content11{
+    margin-top: 5px;
+    display: flex;
+    padding: 20px;
+    background-color:rgb(255, 254, 254);
+    border-radius: 25px;
+}
+
+
+.content11 h4{
+    font-size:50px;
+    line-height: 100px;
+    color: rgb(90, 50, 50);
+    text-transform: uppercase;
+    font-weight: 300px;
+ text-align: center;
+ align-items: center;
+}
+
+
+.diferenciadores p{
+    font-size: 20px;
+    color: rgb(17, 16, 16);
+    margin-bottom:10px;
+    width: 70%;
+}
+
+.container1{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+
+}
+.card1{
+    width: 70%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background:#fff ;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+
+}
+ 
+.card1:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+.card1 img{
+    width: 100%;
+    height: 210px;}
+
+    .container2{
+        width: 100%;
+        display: flex;
+        max-width: 1100px;
+    
+    }
+    .card2{
+        width: 70%;
+        margin: 20px;
+        border-radius: 6px;
+        overflow: hidden;
+        background:#fffcfc ;
+        box-shadow: 0px 1px 10px rgba(247, 3, 3, 0.2);
+        cursor: default;
+        transition: all 400ms ease;
+    
+    }
+     
+    .card2:hover{
+        box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+        transform: translateY(-3%);
+    }
+    .card2 img{
+        width: 100%;
+        height: 210px;}
+        .container3{
+            width: 80%;
+            display: flex;
+            max-width: 1100px;
+        
+        }
+        .card3{
+            width: 90%;
+            margin: 20px;
+            border-radius: 6px;
+            overflow: hidden;
+            background:#fff ;
+            box-shadow: 0px 1px 10px rgba(165, 36, 36, 0.2);
+            cursor: default;
+            transition: all 400ms ease;
+        
+        }
+         
+        .card3:hover{
+            box-shadow: 5px 5px 20px rgba(7, 7, 7, 0.4);
+            transform: translateY(-3%);
+        }
+        .card3 img{
+            width: 100%;
+            height: 210px;}
+
+.btn-3{
+    display: inline-block;
+    padding: 13px 25px;
+    color:rgb(14, 13, 13) ;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    box-shadow: 0 0 35px rgba(126, 103, 103, 0.2);
+    width: left;
+}
+.btn-3:hover{
+    background-color: rgb(240, 231, 231);
+    color: rgb(247, 247, 247);
+}
+.btn-4{
+    display: inline-block;
+    padding: 13px 25px;
+    color:rgb(14, 13, 13) ;
+    font-size: 17px;
+    text-transform:uppercase;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(126, 103, 103, 0.2);
+}
+.btn-4:hover{
+    background-color: rgb(240, 231, 231);
+    color: rgb(247, 247, 247);
+}
+
+
